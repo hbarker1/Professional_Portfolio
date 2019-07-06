@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="Portfolio">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> Foodi </title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="container">
+        <header>
+        <nav>
+            <ul><a href ="#!/recipe-list"><img id ="logo" src ="http://www.aqusagtechnologies.com/wp-content/uploads/2017/11/Web-design.jpg"></a></ul>
+            <ul class="nav-favorites"><a href ="#!/favorites-page">Favorites</a></ul>
+    
+            
+        </nav>
+        
+        </header>
+        <!-- <div id="routeDisplay" ng-view></div> -->
+  <main class="fullContainer">
+
+    <div class="logoContainer">
+      <!-- <img class="logoImage" src="https://bcassetcdn.com/asset/logo/974d41ce-79d8-4516-8dcc-814bd81fc0da/logo?v=4&text=Logo+Text+Here" alt="logo"> -->
+    </div>
+    
+  <div id="routeDisplay" ng-view>
+
+  </div>
+
+  <footer>
+      <div id="footer-id">  
+        
+         
+          <ul><a href ="#!/recipe-list">About Us</a></ul>
+          <ul><a href ="#!/favorites-page">Jobs at foodi</a></ul>
+          <ul><a href ="#!/recipe-list">Recipe Search</a></ul>
+          <ul><a href ="#!/favorites-page">Contact Us</a></ul>
+          <ul><a href ="#!/favorites-page">Address</a></ul>
+  
+  
+          <div class="flex-center">
+            <p id="fotter-text">foodi</p>
+            <i class="fa fa-twitter fa-2x icon-2d"></i>
+            <i class="fa fa-facebook fa-2x icon-2d"></i>
+            <i class="fa fa-instagram fa-2x icon-2d"></i>
+            <i class="fa fa-whatsapp fa-2x icon-2d"></i>
+          </div>
+       
+      </div>
+  
+  
+  </footer>
+  </main> 
+
+
+  <script src="https://code.angularjs.org/1.7.8/angular.js"></script>
+  <script src="https://code.angularjs.org/1.7.8/angular-route.js"></script>
+  <script src="app.module.js"></script>
+  <script src="app.config.js"></script>
+  <script src="components/portfolio-service.js"></script>
+  <script src="components/front-page/front-page.js"></script>
+  <script src="components/projects/projects.js"></script>
+</body>
+
+
+</html>
