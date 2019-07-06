@@ -1,0 +1,22 @@
+fullContainer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+
+}
+
+.enterbutton {
+    display: flex;
+    justify-content: center;
+}

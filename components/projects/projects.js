@@ -6,7 +6,7 @@ function ProjectsController(recipeService) {
     .module('Portfolio')
     .component('Projects', {
       template: `
-      
+      Hello
     `, // or use templateUrl
       controller: ProjectsController,
       // bindings: {

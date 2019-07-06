@@ -9,28 +9,18 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="container">
-        <header>
-        <nav>
-            <ul><a href ="#!/recipe-list"><img id ="logo" src ="http://www.aqusagtechnologies.com/wp-content/uploads/2017/11/Web-design.jpg"></a></ul>
-            <ul class="nav-favorites"><a href ="#!/favorites-page">Favorites</a></ul>
-    
-            
-        </nav>
-        
-        </header>
-        <!-- <div id="routeDisplay" ng-view></div> -->
+<body>
+    <!-- <front-page></front-page>
+    <Projects></Projects> -->
   <main class="fullContainer">
-
-    <div class="logoContainer">
-      <!-- <img class="logoImage" src="https://bcassetcdn.com/asset/logo/974d41ce-79d8-4516-8dcc-814bd81fc0da/logo?v=4&text=Logo+Text+Here" alt="logo"> -->
-    </div>
+    <div class="container">
+        <img class="computerimg" src ="http://www.aqusagtechnologies.com/wp-content/uploads/2017/11/Web-design.jpg">
+        <button class="enterbutton">Welcome</button>
+         
+     </div>
     
-  <div id="routeDisplay" ng-view>
-
-  </div>
-
-  <footer>
+ 
+  <!-- <footer>
       <div id="footer-id">  
         
          
@@ -52,7 +42,7 @@
       </div>
   
   
-  </footer>
+  </footer> -->
   </main> 
 
 
@@ -60,9 +50,8 @@
   <script src="https://code.angularjs.org/1.7.8/angular-route.js"></script>
   <script src="app.module.js"></script>
   <script src="app.config.js"></script>
-  <script src="components/portfolio-service.js"></script>
-  <script src="components/front-page/front-page.js"></script>
-  <script src="components/projects/projects.js"></script>
+  <script src="./portfolio/components/front-page/front-page.js"></script>
+  <script src="./portfolio/components/projects/projects.js"></script>
 </body>
 
 
