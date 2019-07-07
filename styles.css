@@ -1,41 +1,46 @@
 *{
     box-sizing: border-box;
     margin: auto;
+    font-family: 'Abril Fatface', cursive;
 }
-fullContainer {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    margin: 10px;
+
+
+
+main {
+    background-color: rgb(235, 228, 232);
+    height: 70vh;
+
 
 }
 
 #page_effect {
-    /* display:flex;
-    align-content: center;
-    position: relative; */
-    position: absolute; 
+    display: flex;
+    position: absolute;
     bottom: 50%;
-    right: 60%;
-    /* top: 200px;
-    right: 150px; */
-    width:350px;
+    left: 75%;
+    width: 350px;
     height: 200px;
     background-color: white;
     z-index: 8000;
-    border-radius: 80px 80px 0 80px;
-    box-shadow:5px 5px 15px 5px #888888a9;
+    border-radius: 80px 80px 80px 0;
+    box-shadow: 5px 5px 15px 5px #888888a9;
     padding: 0px;
+    text-align: center;
+    flex-direction: column;
+    padding: 10px;
+
 }
 
-.color {
-    width: 80%;
-    height: 80%; 
-    background-color: rgba(231, 231, 231, 0.425);
-    padding: 10px;
-    margin-left: 60px;
-    z-index: 50;
+.welcome {
+    margin-top: 40px;
+    align-content: center;
+    justify-content: center;
 }
+
+.click {
+font-family: 'Poiret One', cursive;
+}
+
 
 
 
@@ -45,38 +50,25 @@ fullContainer {
     padding: 60px;
 }
 
-/* img {
-    width: 80%;
-    align-self: center;
-} */
-
-.enterbutton {
-    display: flex;
-    align-content: center;
-    flex-direction: column;
-    justify-content: center;
-}
 
 
 
 
-.container,
+
+.container2,
 .face,
 .hair,
 .curl1,
 .curl2,
 .nose,
-.ear,
 .neck,
 .body,
-.logo,
 .group,
 .fringe,
 .eye,
 .eye2,
 .pupil,
 .pupil2,
-.tongue,
 .mouth {
   position: absolute;
 }
@@ -85,15 +77,17 @@ fullContainer {
 
 .container2 {
       display: flex;
+      flex-direction: column;
     /* align-content: center; */
     /* flex-direction: column; */
     /* align-items: center; */
     /* justify-content: flex-end; */
     height: 80vh;
-    background-color: rgb(55, 219, 224);
+    background-color: rgb(17, 199, 184);
     margin: 50px;
     justify-content: center;
     box-shadow:5px 5px 8px 5px #888888a9;
+    padding: 30px;
 }
 
 .profile {
@@ -107,7 +101,7 @@ fullContainer {
 }
 
 .group {
-  left: -4px;
+  left: -12px;
 }
 
 .face {
@@ -169,11 +163,11 @@ fullContainer {
 
 .eye {
     z-index: 30;
-    top: 96px;
+    top: 100px;
     left: 85px;
-    background-color: rgb(12, 166, 172);
+    /* background-color: rgb(12, 166, 172); */
     border-top: 4px solid black;
-    border-radius: 50px 50px 15px 15px;
+    border-radius: 50px 50px 0 0;
     width: 15px;
     height: 15px;
 }
@@ -187,7 +181,7 @@ fullContainer {
     width: 15px;
     height: 15px;
 }
-
+/* 
 .pupil {
     z-index: 36;
     top: 100px;
@@ -197,7 +191,7 @@ fullContainer {
     width: 5px;
     height: 5px;
 
-}
+} */
 
 .nose {
   z-index: 20;
@@ -219,14 +213,6 @@ fullContainer {
   overflow: hidden;
 }
 
-/* .tongue {
-  top: 5px;
-  left: 8px;
-  width: 30px;
-  height: 20px;
-  background: pink;
-  border-radius: 20%;
-} */
 
 .neck {
   z-index: 13;
@@ -246,4 +232,26 @@ fullContainer {
     height: 150px;
     background: rgb(243, 157, 145);
     border-radius: 30%;
+}
+
+.name {
+   display: flex;
+   flex-direction: row;
+} 
+
+p {
+    font-size: 30px; 
+
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    float: right;
+    width: 35%;
+    height: 100%;
+    padding: 20px;
+    border: 2px solid white;
 }

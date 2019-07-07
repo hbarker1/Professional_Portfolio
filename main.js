@@ -1,5 +1,5 @@
 $(document).ready(function(){
 	
-	$('#page_effect').fadeIn(2200);
+	$('#page_effect').fadeIn(2500);
 
 });
